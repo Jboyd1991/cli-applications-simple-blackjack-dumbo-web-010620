@@ -20,7 +20,7 @@ def get_user_input
 end
 
 def end_game(total)
-  puts "Sorry "
+  puts "Sorry, you hit #{total}"
 end
 
 def initial_round
