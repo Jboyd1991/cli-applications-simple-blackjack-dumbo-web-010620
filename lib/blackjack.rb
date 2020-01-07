@@ -36,7 +36,8 @@ def hit?
       total += deal_card
   else if user_input = 's'
       total 
-      
+  end 
+  
 end
 
 def invalid_command
