@@ -24,7 +24,7 @@ def end_game(total)
 end
 
 def initial_round
-  round_one = deal_card * 2 
+  round_one = deal_card + deal_card 
   return round_one
 end
 
