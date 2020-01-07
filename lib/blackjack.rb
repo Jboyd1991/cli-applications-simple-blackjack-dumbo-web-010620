@@ -33,9 +33,9 @@ def hit?(total)
   prompt_user
   user_input = get_user_input
     if user_input == "h"
-      return total += deal_card
+    total += deal_card
   elsif user_input == "s"
-      return total 
+    total 
   else invalid_command
   end 
 end 
