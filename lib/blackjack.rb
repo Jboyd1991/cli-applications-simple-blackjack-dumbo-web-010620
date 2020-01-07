@@ -37,7 +37,7 @@ def hit?
   else if user_input = 's'
       total 
   end 
-  
+  invalid_command
 end
 
 def invalid_command
