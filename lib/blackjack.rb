@@ -35,6 +35,7 @@ def hit?
     if user_input = 'h'
       total += deal_card
   else if user_input = 's'
+      total 
       
 end
 
